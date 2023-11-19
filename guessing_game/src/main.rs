@@ -13,7 +13,7 @@ fn print(message: &str) {
 
 // main function
 fn main() {
-    println!("Guess the number!");
+    println!("Guess the number (1-100)!");
 
     // generate random number
     let secret_number = rand::thread_rng().gen_range(1..=100);

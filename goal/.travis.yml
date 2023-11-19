@@ -1,0 +1,15 @@
+sudo: required
+
+notifications:
+  email: false
+
+language: rust
+
+rust:
+- stable
+
+os:
+- linux
+
+script:
+- cargo build -v
